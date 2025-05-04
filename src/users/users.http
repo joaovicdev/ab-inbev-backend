@@ -1,0 +1,30 @@
+### List users
+
+GET http://localhost:3001/users
+
+### Find user by id
+
+GET http://localhost:3001/users/8
+
+### Create user
+
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "joaovic921@gmail.com",
+}
+
+### Update user by id
+
+PUT http://localhost:3001/users/8
+Content-Type: application/json
+
+{
+  "email": "joaovic921@gmail.com",
+}
+
+### Delete user by id
+
+DELETE http://localhost:3001/users/8
