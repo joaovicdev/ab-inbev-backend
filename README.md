@@ -2,14 +2,12 @@
 
 Projeto para avaliação AB-InBev (backend)
 
-## Pré-requisitos
+# Pré-requisitos
 
 - Docker e Docker Compose instalados
 - Npm & Node.js v22 instalados
 
----
-
-## Comandos
+# Comandos
 
 ```bash
 npm install
@@ -20,3 +18,7 @@ npm run start:dev # start server at 3001 default port
 ```
 
 Tests: ``npm run test``
+
+# Rotas
+
+As rotas estão cadastradas no arquivo ``src/users/users.http`` que você pode testar utilizando a extensão "REST Client"
