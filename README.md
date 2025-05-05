@@ -1,7 +1,6 @@
 # 🧠 Users API - NestJS + TypeORM + MySQL + Docker
 
-API RESTful para gerenciamento de usuários utilizando NestJS, TypeORM e banco de dados MySQL. 
-O projeto também implementa cache com Redis e testes unitários com Jest.
+Projeto para avaliação AB-InBev (backend)
 
 ## Pré-requisitos
 
