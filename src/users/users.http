@@ -2,10 +2,6 @@
 
 GET http://localhost:3001/users
 
-### Find user by id
-
-GET http://localhost:3001/users/8
-
 ### Create user
 
 POST http://localhost:3001/users
@@ -16,15 +12,20 @@ Content-Type: application/json
   "email": "joaovic921@gmail.com",
 }
 
+### Find user by id
+
+GET http://localhost:3001/users/1
+
+
 ### Update user by id
 
-PUT http://localhost:3001/users/8
+PUT http://localhost:3001/users/1
 Content-Type: application/json
 
 {
-  "email": "joaovic921@gmail.com",
+  "email": "joao3vic921@gmail.com",
 }
 
 ### Delete user by id
 
-DELETE http://localhost:3001/users/8
+DELETE http://localhost:3001/users/1
