@@ -16,7 +16,7 @@ npm install
 cp .env.example .env
 docker-compose up -d
 npm run migration:run
-npm run start:dev # start server at 3001 port
+npm run start:dev # start server at 3001 default port
 ```
 
 Tests: ``npm run test``
